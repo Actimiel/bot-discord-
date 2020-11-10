@@ -12,3 +12,14 @@ connecté
 //la ligne suivante permet d'indiquer à l'objet Discord qui est
 notre bot afin qu'il puisse se connecter
 bot.login("Nzc1NzgwNzg3NDc0OTIzNTIw.X6rUKQ.1i_c6VJFALX9JPt5yyTvjJV12HE");
+//ici on regarde quand le bot est en ligne et qu'il voit passer un
+message (peu importe le serveur)
+bot.on("message", message => {
+ //on regarde alors si le contenu du message est strictement
+égale à "!ping"
+ if (message.content === "!ping") {
+ //si oui on arrive ici et on envoie, dans le channel d'où
+provient le message, "Carapong !"
+ message.channel.send("Carapong !");
+ }
+});
