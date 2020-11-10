@@ -11,4 +11,4 @@ connecté
 });
 //la ligne suivante permet d'indiquer à l'objet Discord qui est
 notre bot afin qu'il puisse se connecter
-bot.login("Nzc1NzgwNzg3NDc0OTIzNTIw.X6rUKQ.V0UUh3piq9CT7Fs_d7Y1rrVVeco");
+bot.login("Nzc1NzgwNzg3NDc0OTIzNTIw.X6rUKQ.1i_c6VJFALX9JPt5yyTvjJV12HE");
