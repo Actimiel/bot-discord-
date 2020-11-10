@@ -9,7 +9,7 @@ bot.on("ready", function () {
 connecté
  console.log("Carapuce est dans les places !");
 });
-//la ligne suivante permet d'indiquer à l'objet Discord qui est
+//la ligne suivante permet d'indiquer à l'objet Discord qui est un messa
 notre bot afin qu'il puisse se connecter
 bot.login("Nzc1NzgwNzg3NDc0OTIzNTIw.X6rUKQ.1i_c6VJFALX9JPt5yyTvjJV12HE");
 //ici on regarde quand le bot est en ligne et qu'il voit passer un
@@ -20,6 +20,6 @@ bot.on("message", message => {
  if (message.content === "!ping") {
  //si oui on arrive ici et on envoie, dans le channel d'où
 provient le message, "Carapong !"
- message.channel.send("Carapong !");
+ message.channel.send("Carapong !"); 
  }
 });
